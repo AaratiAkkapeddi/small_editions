@@ -1,24 +1,31 @@
 document.addEventListener("DOMContentLoaded", function() {
-		let trigger = document.querySelectorAll(".mobile-trigger");
+		let trigger = document.querySelector(".mobile-trigger");
+
 		
-		for(let i = 0; i < trigger.length; i ++){
-			trigger[i].addEventListener("click", function(){
+
+			trigger.addEventListener("click", function(){
 				let modal = this.dataset.modal
 				let cart = document.querySelector(".mobile-nav .right-links li:last-child");
 				modal = document.getElementById(modal);
 				if(modal.classList.contains("on")){
 					modal.classList.remove("on");
-					trigger[i].innerHTML = "Menu"
-					trigger[i].classList.remove('close')
+					trigger.innerHTML = "Menu"
+					trigger.classList.remove('close')
 					cart.style.display = "inline-block";
+					let allModals = document.querySelectorAll('.modal');
+					for (var i = allModals.length - 1; i >= 0; i--) {
+						if(allModals[i].classList.contains("on")){
+							allModals[i].classList.remove("on")
+						}
+					}
 				}else {
 					let modalOpen = false
 					let allModals = document.querySelectorAll('.modal');
 					for (var i = allModals.length - 1; i >= 0; i--) {
 						if(allModals[i].classList.contains("on")){
 							allModals[i].classList.remove("on")
-							trigger[i].innerHTML = "Menu"
-							trigger[i].classList.remove('close')
+							trigger.innerHTML = "Menu"
+							trigger.classList.remove('close')
 							cart.style.display = "inline-block";
 							modalOpen = true;
 						}
@@ -26,14 +33,14 @@ document.addEventListener("DOMContentLoaded", function() {
 					if(!modalOpen){
 						cart.style.display = "none";
 						modal.classList.add("on");
-						trigger[i].classList.add('close')
-						trigger[i].innerHTML = "Close"
+						trigger.classList.add('close')
+						trigger.innerHTML = "Close"
 					}
 					
 				}
 				
 			})
-		}
+
 		
 		
 })
