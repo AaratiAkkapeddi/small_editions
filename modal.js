@@ -1,8 +1,9 @@
-document.addEventListener("DOMContentLoaded", function() {
+(function () {
 		let trigger = document.querySelectorAll(".modal-trigger");
 		
 		for(let i = 0; i < trigger.length; i ++){
 			trigger[i].addEventListener("click", function(){
+
 				let menu = document.querySelector(".mobile-trigger");
 				let modal = this.dataset.modal
 				let cart = document.querySelector(".mobile-nav .right-links li:last-child");
@@ -28,4 +29,4 @@ document.addEventListener("DOMContentLoaded", function() {
 				menu.classList.remove('close')
 			})
 		}
-})
+}());

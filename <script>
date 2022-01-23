@@ -1,0 +1,24 @@
+<script>
+  	  setTimeout(function() {
+document.querySelector(".right-links li:first-child").addEventListener("click", function(){
+
+
+   	  setTimeout(function() {
+
+        if(document.querySelector("#following-frame")){
+		document.querySelector("#following-frame").contentDocument.head.innerHTML = document.querySelector("#following-frame").contentDocument.head.innerHTML + "<style>.bg-grey-dark{background:#3FB65B !important;}.color-white{color:black !important;}.ecommerce-cart [type=number]#quantity{color: black !important}polygon{fill: black !important;}g{stroke:black !important;opacity:1 !important;}.bg-blackest{background:transparent !important;}#slide-container .outline, #slide-container .outline select{outline: #000 1px solid;}.bs.container, .slide-panel.container{font-family: Diatype, sans-serif;}.type-bold{font-weight:normal;}.stripe-cc-element, form input{background:transparent;filter:invert(2);}#shipping_address form select,#shipping_address form select option{color:black !important;-webkit-text-fill-color: black !important;}label{background:transparent !important;}.color-grey-medium{color:black !important;}path{stroke-width:1px !important;}.type-size-big,.ecommerce-cart, [data-paymentframe]{font-size:13px !important;}</style>";
+    }
+  },100)
+   
+})
+      },500);
+  
+  
+        	  setTimeout(function() {
+
+        if(document.querySelector("#following-frame")){
+		document.querySelector("#following-frame").contentDocument.head.innerHTML = document.querySelector("#following-frame").contentDocument.head.innerHTML + "<style>.bg-grey-dark{background:#3FB65B !important;}.color-white{color:black !important;}.ecommerce-cart [type=number]#quantity{color: black !important}polygon{fill: black !important;}g{stroke:black !important;opacity:1 !important;}.bg-blackest{background:transparent !important;}#slide-container .outline, #slide-container .outline select{outline: #000 1px solid;}.bs.container, .slide-panel.container{font-family: Diatype, sans-serif;}.type-bold{font-weight:normal;}.stripe-cc-element, form input{background:transparent;filter:invert(2);}#shipping_address form select,#shipping_address form select option{color:black !important;-webkit-text-fill-color: black !important;}label{background:transparent !important;}.color-grey-medium{color:black !important;}path{stroke-width:1px !important;}.type-size-big,.ecommerce-cart, [data-paymentframe]{font-size:13px !important;}</style>";
+    }
+  
+      },500);
+</script>

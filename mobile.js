@@ -1,16 +1,16 @@
-document.addEventListener("DOMContentLoaded", function() {
-		let trigger = document.querySelector(".mobile-trigger");
+(function () {
+		let trigger1 = document.querySelector(".mobile-trigger");
 
 		
 
-			trigger.addEventListener("click", function(){
+			trigger1.addEventListener("click", function(){
 				let modal = this.dataset.modal
 				let cart = document.querySelector(".mobile-nav .right-links li:last-child");
 				modal = document.getElementById(modal);
 				if(modal.classList.contains("on")){
 					modal.classList.remove("on");
-					trigger.innerHTML = "Menu"
-					trigger.classList.remove('close')
+					trigger1.innerHTML = "Menu"
+					trigger1.classList.remove('close')
 					cart.style.display = "inline-block";
 					let allModals = document.querySelectorAll('.modal');
 					for (var i = allModals.length - 1; i >= 0; i--) {
@@ -24,8 +24,8 @@ document.addEventListener("DOMContentLoaded", function() {
 					for (var i = allModals.length - 1; i >= 0; i--) {
 						if(allModals[i].classList.contains("on")){
 							allModals[i].classList.remove("on")
-							trigger.innerHTML = "Menu"
-							trigger.classList.remove('close')
+							trigger1.innerHTML = "Menu"
+							trigger1.classList.remove('close')
 							cart.style.display = "inline-block";
 							modalOpen = true;
 						}
@@ -33,8 +33,8 @@ document.addEventListener("DOMContentLoaded", function() {
 					if(!modalOpen){
 						cart.style.display = "none";
 						modal.classList.add("on");
-						trigger.classList.add('close')
-						trigger.innerHTML = "Close"
+						trigger1.classList.add('close')
+						trigger1.innerHTML = "Close"
 					}
 					
 				}
@@ -42,5 +42,4 @@ document.addEventListener("DOMContentLoaded", function() {
 			})
 
 		
-		
-})
+	}());	

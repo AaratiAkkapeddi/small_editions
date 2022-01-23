@@ -9,7 +9,8 @@
     <li><a class="off" href="Overview" rel="history">About</a></li>
   </ul>
   <ul class="right-links">
-  <li><a href="/cart">Cart</a></li>
+  <li>    <a href="#" rel="show_cart" show-count="">Cart</a>
+</li>
     <li><a data-modal="search-modal" class="modal-trigger">Search</a></li>
   </ul>
 </nav>
@@ -18,7 +19,8 @@
  <img src="https://files.cargocollective.com/c1171819/logo.png">
 </a></div><ul class="right-links">
     <li><a data-modal="mobile-modal" class="mobile-trigger">Menu</a></li>
-  <li><a href="/cart">Cart</a></li>
+  <li>    <a href="#" rel="show_cart" show-count="">Cart</a>
+</li>
   </ul>
 </div>
 <div id="sub-nav">
@@ -27,70 +29,249 @@
         <li><a href="services">Services</a></li>
         <li><a href="clients">Clients</a></li>
         <li><a href="Process">Process</a></li>
-        <li><a href="Quote">Request a Quote</a></li>
-    </ul><br>
-    <small>We print, bind, and design books,<br> boxes, and multiples.</small>
+        <li><a href="Quote">Request a Quote</a></li></ul><br>
+<br>
+<small>We print, bind, and design books, boxes, and multiples.</small>
 </div>
-<div id="side-nav">
+<div id="side-nav" style="position: fixed; bottom: auto;">
 Refine your search:<br>
 <ul>
-<li>Case-bound</li>
-<li>Smyth-sewn</li>
-<li>Spiral-bound</li>
-<li>Editions</li>
-<li>Boxes</li>
-<li>Risograph</li>
-<li>Foil Stamping</li>
-<li>Clear All Search Terms</li>
+<li id="soft-cover" class="">Soft cover</li>
+<li id="hard-cover" class="">Hard cover</li>
+<li id="boxes">Boxes</li>
+<li id="smyth-sewn">Smyth-sewn</li>
+<li id="pur-bound">PUR perfect-bound</li>
+<li id="spiral-bound">Spiral-bound</li>
+<li id="exposed-spine">Exposed spine</li>
+<li id="accordion">Accordion</li>
+<li id="foil-stamping">Foil stamping</li>
+<li id="risograph">Risograph</li>
+<li id="offset-printing">Offset printing</li>
+<li id="digital-offset-printing">Digital offset printing</li>
+<li id="clear">Clear all search terms</li>
 </ul>
 </div>
 
 <content class="gallery">
 
+  <div class="box-wrapper">
+    <!----------------------------->
+    <!---- ADD BOOKS BELOW HERE --->
+  <!----------------------------->
 
-<div grid-row="" grid-pad="1" grid-gutter="2">
-  <div grid-col="x11" grid-pad="1"><a href="Mara-Kuya" rel="history" class="image-link">{image 5}</a><br>
-<br>
-<h1><a href="Mara-Kuya" rel="history">MARA KUYA</a></h1><a href="Mara-Kuya" rel="history">
-&nbsp; &nbsp;&nbsp; &nbsp; June Canedo</a> 
-<br>
-</div>
-  <div grid-col="x11" grid-pad="1">{image 22}<br>
-<br>
-<h1>COME TOGETHER</h1>
-&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Rhea Karam<br></div>
-</div><div grid-row="" grid-pad="1" grid-gutter="2">
-  <div grid-col="x11" grid-pad="1" class=""><a href="It-takes-a-little-more" rel="history" class="image-link">{image 8}</a><br>
-<br>
-<a href="It-takes-a-little-more" rel="history">IT TAKES A LITTLE MORE: SELECTED CHAMPION PRODUCTS 1919 – 2002
-<br>&nbsp; &nbsp; &nbsp; &nbsp;Tags and Threads<br></a><br><br><br>
-<br><a href="All-the-Streets-are-Silent" rel="history" class="image-link">{image 11}</a><br>
-<br><a href="All-the-Streets-are-Silent" rel="history">ALL THE STREETS ARE SILENT: THE CONVERGENCE OF HIP-HOP AND SKATEBOARDING (1987–1997)<br>&nbsp; &nbsp; &nbsp; &nbsp;Elkin Editions<br></a><br><br><br><br>
-{image 14}<br><br>
-INCELESBIAN<br>&nbsp; &nbsp; &nbsp; &nbsp;Nicole Eisenman<br><br>
-<br><br><br>
-<a href="Caroline-Schub" rel="history" class="image-link">{image 19}</a><br><br><a href="Caroline-Schub" rel="history">CAROLINE SCHUB: 2010–2016<br>&nbsp; &nbsp; &nbsp; &nbsp;Caroline Schub<br></a><br><br>
-<br>
-<br>
-{image 17}<br><br>
-MFA FINE ARTS CATALOG 2020<br>&nbsp; &nbsp; &nbsp; &nbsp;Pratt Institute<br>
-</div>
-  <div grid-col="x11" grid-pad="1" class=""><a href="Now-more-than-ever" rel="history" class="image-link">{image 9}</a><br>
+    <!-- copy/paste this example -->
+    
+<!-- <div class="box">
+      <a href="All-the-Streets-are-Silent" rel="history">
+        <img width="2300" height="1534" width_o="2300" height_o="1534" data-src="https://freight.cargo.site/t/original/i/d549d0db5249062132704e8f07ba81da4b698b62532e2640eaf9516de196389b/20201229_SmallEditions_022.jpg" data-mid="126878365" border="0" />
 
+        <h1>TITLE</h1>
+        &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; AUTHOR
+      </a>
+    </div> -->
+
+<div class="box">
+      <a href="Castle-Ruins-of-Kozuke-Province" rel="history">
+ {image 38}<br>
+
+        <br>
+<h1>Castle ruins of KŌZUKE province</h1>
+        &nbsp; &nbsp; &nbsp; &nbsp; B</a><a href="Castle-Ruins-of-Kozuke-Province" rel="history">rett Davis</a><br><br>
 <br>
-<h1><a href="Now-more-than-ever" rel="history">now, more than ever.</a></h1><a href="Now-more-than-ever" rel="history">&nbsp; &nbsp; &nbsp; &nbsp;Wassaic Project</a><br><br><br><br><br>
-<a href="Caroline-Schub-copy" rel="history" class="image-link">{image 12}</a><br><br><a href="Caroline-Schub-copy" rel="history">KITSCH ENCYCLOPEDIA<br>&nbsp; &nbsp; &nbsp;&nbsp; Sarah Cwynar<br></a><br><br><br><br>
-{image 15}<br><br>BENEDIX HARMS: SANKT RUFUS<br>&nbsp; &nbsp; &nbsp;&nbsp; Anton Kern Gallery<br><br><br><br><br>
-<a href="Catherine-Servel" rel="history" class="image-link">{image 18}</a><br><br><a href="Catherine-Servel" rel="history">SUNDAY<br>&nbsp; &nbsp; &nbsp; &nbsp;Catherine Servel</a>
-</div>
-</div>
-<!-- BACK TO TOP-->
-  <div class="back-to-top">
+    </div>
+<div class="box">
+      <a href="SEE-NO-EVIL" rel="history">
+ {image 39}<br>
+
+        <br>
+<h1>SEE NO EVIL</h1>
+        &nbsp; &nbsp; &nbsp; &nbsp; Adrianne Wortzel</a><br><br>
+<br>
+    </div>
+<div class="box">
+      <a href="Diza-No-Ole" rel="history">
+{image 36}<br>
+
+        <br>
+<h1>DIŽA NO’OLE</h1>
+ &nbsp; &nbsp; &nbsp; &nbsp; </a><a href="Diza-No-Ole" rel="history">June Canedo</a><br><br>
+<br>
+    </div>
+<div class="box">
+      <a href="Secret-of-the-Friendly-Woods" rel="history">
+ {image 37}<br>
+
+        <br>
+<h1>Secret of the Friendly woods</h1>
+ &nbsp; &nbsp; &nbsp; &nbsp; </a><a href="Secret-of-the-Friendly-Woods" rel="history">Wassaic Project</a><br><br>
+<br>
+    </div>
+<div class="box">
+      <a href="All-That-We-Need" rel="history">
+ {image 33}<br>
+
+        <br>
+<h1>ALL THAT WE NEED</h1>
+        &nbsp; &nbsp; &nbsp; &nbsp; Oliver Jeffers x Feit</a><br><br>
+<br>
+    </div>
+<div class="box">
+      <a href="Away-From-the-Forum" rel="history">
+ {image 32}<br>
+
+        <br>
+<h1>AWAY from the forum</h1>
+        &nbsp; &nbsp; &nbsp; &nbsp; Douglas Murray</a><br><br>
+<br>
+    </div>    
+<div class="box">
+      <a href="Gabrielle-Widjaja" rel="history">
+ {image 31}<br>
+
+        <br>
+<h1>WE ARE STILL HERE</h1>
+        &nbsp; &nbsp; &nbsp; &nbsp; Gabrielle Widjaja</a><br><br>
+<br>
+    </div>
+<div class="box">
+      <a href="Mara-Kuya" rel="history">
+ {image 5}<br>
+
+        <br>
+<h1>MARA kuya</h1>
+ &nbsp; &nbsp; &nbsp; &nbsp; </a><a href="Mara-Kuya" rel="history">June Canedo</a><br><br>
+<br>
+    </div>    
+<div class="box">
+      <a href="Rhea-Karam" rel="history">
+ {image 40}<br>
+
+        <br>
+<h1>Come together</h1>
+ &nbsp; &nbsp; &nbsp; &nbsp; </a><a href="Rhea-Karam" rel="history">Rhea Karam</a><br><br>
+<br>
+    </div>
+<div class="box">
+      <a href="It-takes-a-little-more" rel="history">
+ {image 8}<br>
+
+        <br>
+<h1>IT TAKES A LITTLE MORE: SELECTED CHAMPION PRODUCTS 1919 – 2002</h1>
+ &nbsp; &nbsp; &nbsp; &nbsp; </a><a href="It-takes-a-little-more" rel="history">Tags &amp; Threads</a><br>
+<br>
+    </div>    
+<div class="box">
+      <a href="Now-more-than-ever" rel="history">
+ {image 9}<br>
+
+        <br>
+<h1>now, more than ever.</h1>
+ &nbsp; &nbsp; &nbsp; &nbsp; </a><a href="Now-more-than-ever" rel="history">Wassaic Project</a><br><br>
+<br>
+    </div>
+<div class="box">
+      <a href="All-the-Streets-are-Silent" rel="history">
+ {image 11}<br>
+
+        <br>
+<h1>ALL THE STREETS ARE SILENT THE CONVERGENCE OF HIP-HOP AND SKATEBOARDING (1987–1997)</h1>
+ &nbsp; &nbsp; &nbsp; &nbsp; </a><a href="All-the-Streets-are-Silent" rel="history">Elkin Editions</a><br>
+<br>
+    </div>
+<div class="box">
+      <a href="Kitsch-Encyclopedia" rel="history">
+ {image 12}<br>
+
+        <br>
+<h1>KITSCH ENCYCLOPEDIA</h1>
+ &nbsp; &nbsp; &nbsp; &nbsp; </a><a href="Kitsch-Encyclopedia" rel="history">Sarah Cwynar</a><br><br>
+<br>
+    </div>
+<div class="box">
+      <a href="Nicole-Eisenmann" rel="history">
+        {image 28}<br>
+
+        <br>
+<h1>INCELESBIAN</h1>
+ &nbsp; &nbsp; &nbsp; &nbsp; </a><a href="Nicole-Eisenmann" rel="history">Nicole Eisenman</a><br><br>
+<br>
+    </div>
+<div class="box">
+      <a href="Ji-Oh" rel="history">
+ {image 26}<br>
+
+        <br>
+<h1>ji oh</h1>
+ &nbsp; &nbsp; &nbsp; &nbsp; </a><a href="Ji-Oh" rel="history">Hugo &amp; Marie</a><br><br>
+<br>
+    </div>
+<div class="box">
+      <a href="Caroline-Schub" rel="history">
+ {image 19}<br>
+
+        <br>
+<h1>CAROLINE SCHUB 2010–2016</h1>
+ &nbsp; &nbsp; &nbsp; &nbsp; </a><a href="Caroline-Schub" rel="history">Caroline Schub</a><br><br>
+<br>
+    </div>    
+<div class="box">
+      <a href="Bendix-Harms" rel="history">
+ {image 15}<br>
+
+        <br>
+<h1>BENDIX HARMS ØFZINE</h1>
+ &nbsp; &nbsp; &nbsp; &nbsp; </a><a href="Bendix-Harms" rel="history">Anton Kern Gallery</a><br><br>
+<br>
+    </div>
+<div class="box">
+      <a href="Pratt" rel="history">
+{image 17}<br>
+
+        <br>
+<h1>MFA FINE ARTS CATALOG 2020</h1>
+ &nbsp; &nbsp; &nbsp; &nbsp; </a><a href="Pratt" rel="history">Pratt Institute</a><br><br>
+<br>
+    </div>    
+<div class="box">
+      <a href="Catherine-Servel" rel="history">
+{image 18}<br>
+
+        <br>
+<h1>Sunday</h1>
+        &nbsp; &nbsp; &nbsp; &nbsp; Catherine Servel</a><br><br>
+<br>
+    </div>
+<div class="box">
+      <a href="Lynn-Shostack" rel="history">
+ {image 27}<br>
+
+        <br>
+<h1>Men in business&nbsp;</h1>
+        &nbsp; &nbsp; &nbsp; &nbsp; Lynn Shostack</a><br><br>
+<br>
+    </div>    
+    
+<div class="box">
+      <a href="Stranger-Stranger" rel="history">
+{image 42}<br>
+
+        <br>
+<h1>The book of stranger</h1>
+ &nbsp; &nbsp; &nbsp; &nbsp; </a><a href="Stranger-Stranger" rel="history">Stranger &amp; Stranger<br></a><br>
+    </div>    
+    
+<div class="box">
+      <a href="Castle-Ruins-of-Kozuke-Province" rel="history">
+&nbsp;</a><a href="Lynn-Shostack" rel="history">
+      </a>
+ 
+
+</div><div class="box"><br><div class="box-wrapper"><div class="box"></div></div></div><!-- BACK TO TOP--></div><div class="back-to-top">
     <div id="back-to-top">
       <svg width="22" height="10" viewBox="0 0 22 10" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M1 9L11 1L21 9" stroke="black"></path>
-      </svg>
-      <br>back to top
+      </svg><br>
+      back to top
     </div>
   </div>
 </content>
@@ -98,12 +279,8 @@ MFA FINE ARTS CATALOG 2020<br>&nbsp; &nbsp; &nbsp; &nbsp;Pratt Institute<br>
 
 <!-- FOOTER -->
 <footer>
-<p>Located outside of the Brooklyn Navy Yard in occupied Lenapehoking
-(Brooklyn, New York), Small Editions offers services in book and print
-design, bookbinding, box making, and multiples. We also run an independent publishing imprint, where we collaborate with artists on several
-projects annually.</p>
 <ul>
-  <li><a href="" class="active">© Small Editions 2021</a></li>
+  <li>© Small Editions 2021</li>
     <li><a data-modal="terms-modal" class="modal-trigger">Privacy</a></li>
     <li><a data-modal="newsletter-modal" class="modal-trigger">Newsletter</a></li>
     <li><a data-modal="contact-modal" class="modal-trigger">Contact</a></li>
@@ -118,146 +295,7 @@ projects annually.</p>
 <line x1="0.646447" y1="24.6464" x2="24.6464" y2="0.646448" stroke="black"></line>
 </svg>
 </div>
-  <div class="inner">
-  <h1 style="text-align:center;">FREQUENTLY ASKED QUESTIONS</h1><br>
-  General Project Questions 
-
-<br><br>
-1. What is the minimum run size?
-<br><br>
-There is no minimum run size! We typically produce projects with run sizes in the 1-2000 unit range, and recommend that all offset printed projects are an edition size of 200 or above. 
-
-
-<br><br>
-2. What is a typical lead time?
-<br><br>
-There are many variables that will affect your project's lead time. Our current minimum lead time for any project is 4 weeks, and we charge rush fees to make sure firm deadlines are met. We generally recommend planning 6-10 weeks for production of standard digital offset projects, and 3-6 months for standard offset projects. All other projects are subject to the availability of the bindery calendar. 
-
-
-<br><br>
-3. I’m not sure where to start with my project, and don’t know my project specifications yet – what is the best way to start a conversation?
-<br><br>
-We offer consulting services on specialized projects to help guide you through the process. Some of the questions we recommend considering before your consultation is: Which details are most important for your project? Are you set on any particular materials, dimensions, or run sizes? What is the overall budget goal for this project? If you don’t have an overall budget, then what is your goal for the individual ‘per book’ price?
-
-
-<br><br>
-4. Do you accept restoration projects?
-<br><br>
-Unfortunately, we are unable to facilitate restoration or conservation projects at this time. 
-
-<br><br>
-
-5. Why is the ‘per book’ price higher on smaller run sizes?
-<br><br>
-Since all of our projects are custom-made, there are initial project set up costs for each project. The ‘per book’ price drops as these costs are spread out across the run. Therefore, it will always be cheaper to do a larger edition of a project once, than to produce two smaller runs of the same project. 
-
-<br><br>
-
-6. Why does Small Editions ask for our ideal budget from the start? 
-<br><br>
-Starting out by discussing your ideal budget for the project, allows us to make the best recommendations for your particular project! We want to help you make the most of your budget, and are happy to provide guidance on materials, binding methods, print methods, and finishing details that complement your design goals. 
-
-
-<br><br>
-7. Can I get samples from you?
-<br><br>
-Since all of our projects are custom-made, we will create a sample card with curated options for your particular project. Sample cards are $15 each. We’ll be offering general sample books for sale soon.
-
-
-<br><br>
-8. Can I stop by the studio or schedule an in person meeting? 
-<br><br>
-At this time we are still limiting in person meetings in order to protect our team. You’re welcome to schedule a virtual consultation here. 
-<br><br>
-Once my project is ready, where can I collect them or have them shipped from? 
-All projects can be collected from the studio located at 20 Grand Ave. #502 Brooklyn, NY 11205. All final shipping costs will be calculated from this location as well. 
-<br><br>
-What is the difference between your publishing and production programs ?
-Our publishing program is not currently accepting applications. If you’d like to work with us, we recommend that you work with us through our production program. 
-<br><br>
-Where do I find more information about your publishing program ?
-If you’d like to see the incredible artists we’ve worked with in the past, we recommend checking out our publishing page! 
-
-
-
-<br><br>
-Production Questions
-<br><br>
-
-1. Are printed hard proofs included in each quote?
-<br><br>
-Yes! For Digital Offset projects, we include one hard proof on the final paper for you to review. For Offset projects, we include 10 Epson proofs for color matching, and provide “blue lines”/plotter proofs (which are not on final paper) for layout and review confirmation. For all other print options, it is best to discuss the proofing process with us directly. 
-
-
-<br><br>
-2. Will the hard proof be on the final paper? 
-<br><br>
-Yes, if your project is printed Digital Offset. No, if your project is printed Offset. All other print options should be discussed with us directly. 
-
-
-<br><br>
-3. Can you proof our project if we are working with another printer for final production?  
-<br><br>
-We recommend working with your printer or someone they recommend, so that the correct color profiles are being used for your project and their requirements. 
-
-<br><br>
-
-4. What finishing options are available? 
-<br><br>
-The possibilities are endless! Feel free to send us reference images with your ideal budget range, so we can help you work towards your dream finishes. A couple of our favorites are foil stamping / debossing, fore-edge painting, and custom ribbon inserts! 
-<br><br>
-
-
-5. What print options are available?
-<br><br>
-We have long standing relationships with print partners in both the US and Europe. Standard print options are Offset and Digital Offset, and we can recommend the best option based on your book size, run size, and budget. Additionally we are able to facilitate letterpress, risograph, fine art inkjet, screen printing, and laser printing. 
-<br><br>
-
-
-6. What binding options are available? 
-<br><br>
-Again, the possibilities are endless! Standard projects are typically Perfect Bound or Smyth-Sewn. For perfect binding we work exclusively with a coldset PUR. A couple of other favorite binding options are pamphlet stitch, Japanese stab binding, and Swiss sewn with a drop spine. Special binding methods tend to work better for different run sizes and budget ranges, and we’re happy to discuss this further with you.
-<br><br>
-
-
-7. What papers are available?
-<br><br>
-The two main categories are Coated and Uncoated papers. Coated options are available in Glossy or Silk/Matte and Uncoated is a Matte/Dull option. The weights and brands available to you are dependent on the best printing method for your particular project. We work with paper mills large and small, and are happy to recommend a few options that best suit your particular project! 
-<br><br>
-
-
-8. What cover materials are available? 
-<br><br>
-For softcovers, we recommend printing on cover weight paper or foil stamping a variety of cover stocks not suited for printing. Please reach out to us with more specific material questions.
-For hardcovers, we regularly work with leather, cover cloth, simulated leather, and printed paper wraps. Please reach out to us with more specific material questions.
-<br><br>
-For all printed cover material, we recommend laminating the cover to prevent the ink from scratching off. Lamination options include: Matte, Soft Touch Matte, Gloss, and Silk. 
-
-
-<br><br>
-9. What environmentally friendly options are available? 
-<br><br>
-While there are recycled paper options available, we don’t always recommend printing on them! The environmental impact of specially sourcing internal paper options sometimes outweighs the benefit of using recycled options. With that said, we are informed on the options available, and happy to discuss them with you! There are many exciting options available for cover stocks such as paper produced in hydro powered mills or paper made from recycled disposable paper coffee cups.
-<br><br>
-
-
-10. What does Small Editions check for in prepress? 
-<br><br>
-Our top priority is to check that all of your images are printing at the correct resolution and that the color profiling will fall in the desired range. We will call out any concerns we have about file formatting from colorspace to general formatting. 
-
-<br><br>
-
-11. What should I (the client) be checking for in the prepress pdfs?
-<br><br>
-Please check the text/copy of the book closely! It is important to catch all spelling and copy errors before moving to the hard proof stage. It is also important to check for layout, color, and formatting concerns at this point. It is much more difficult and costly to correct problems in the hard proof stage, so please bring any concerns to us before approving! This is the stage to catch any major/minor file errors! 
-
-
-<br><br>
-12. When/why do fees apply for changing the file post prepress pdf review?
-<br><br>
-Once you approve the prepress pdfs, we immediately start the process of producing your project. Steps such as imposition, ordering materials, and plate production are timely/costly steps that will affect how we navigate correcting the file change and the fees involved. We do our best to make sure that everything is clear and you’re happy with everything before starting production. 
-<br><br>
-</div>
+  <div class="inner"></div>
 </div>
 <!-- QUOTE -->
 <div class="modal" id="request-modal">
@@ -339,44 +377,54 @@ Once you approve the prepress pdfs, we immediately start the process of producin
   <div class="inner">
       <h1>Newsletter</h1>
   
-      <div class="ff-616354a5f88d548e68f5cec1" data-ff-el="root" data-ff-version="3" data-ff-type="inline" data-ff-name="inlineNoImage">
+<div class="ff-61d4750bb0306b55f06cb685" data-ff-el="root" data-ff-version="3" data-ff-type="inline" data-ff-name="ribbonBanner">
   <!--tpl {% block config %} tpl-->
   <div data-ff-el="config" data-ff-config="eyJ0cmlnZ2VyIjp7Im1vZGUiOiJpbW1lZGlhdGVseSIsInZhbHVlIjowfSwib25TdWNjZXNzIjp7Im1vZGUiOiJtZXNzYWdlIiwibWVzc2FnZSI6IiIsInJlZGlyZWN0VXJsIjoiIn0sImNvaSI6ZmFsc2UsInNob3dGb3JSZXR1cm5WaXNpdG9ycyI6dHJ1ZSwibm90aWZpY2F0aW9uIjp0cnVlfQ==" style="display: none"></div>
   <!--tpl {% endblock %} tpl-->
-  <div class="ff-616354a5f88d548e68f5cec1__container">
-    <div class="ff-616354a5f88d548e68f5cec1__wrapper">
-      <form class="ff-616354a5f88d548e68f5cec1__form" action="https://form.flodesk.com/forms/616354a5f88d548e68f5cec1/submit" method="post" data-ff-el="form">
-        <div class="ff-616354a5f88d548e68f5cec1__title">
-          <div></div>
-        </div>
-        <div class="ff-616354a5f88d548e68f5cec1__subtitle">
-          <div></div>
-        </div>
-        <div class="ff-616354a5f88d548e68f5cec1__content fd-form-content" data-ff-el="content">
-          <div class="ff-616354a5f88d548e68f5cec1__fields" data-ff-el="fields">
-            <!--tpl {% block fields %} tpl-->
+  <div class="ff-61d4750bb0306b55f06cb685__container">
+    <form class="ff-61d4750bb0306b55f06cb685__form" action="https://form.flodesk.com/forms/61d4750bb0306b55f06cb685/submit" method="post" data-ff-el="form">
+      <div class="ff-61d4750bb0306b55f06cb685__title">
+        <div>Subscribe</div>
+      </div>
+      <div class="ff-61d4750bb0306b55f06cb685__subtitle">
+        <div>Sign up with your email address to receive news and updates.</div>
+      </div>
+      <div class="ff-61d4750bb0306b55f06cb685__content fd-form-content" data-ff-el="content">
+        <div class="ff-61d4750bb0306b55f06cb685__fields" data-ff-el="fields">
+          <!--tpl {% block fields %} tpl-->
 
-            <div class="ff-616354a5f88d548e68f5cec1__field fd-form-group">
-              <input class="ff-616354a5f88d548e68f5cec1__control fd-form-control" type="text" name="email" placeholder="Email address" data-ff-tab="email::submit" required="">
-              <label class="ff-616354a5f88d548e68f5cec1__label fd-form-label">Email address</label>
-            </div>
-
-            <input type="text" name="confirm_email_address" style="display: none">
-            <!--tpl {% endblock %} tpl-->
+          <div class="ff-61d4750bb0306b55f06cb685__field fd-form-group">
+            <input class="ff-61d4750bb0306b55f06cb685__control fd-form-control" type="text" name="firstName" placeholder="First name" data-ff-tab="firstName::lastName">
+            <label class="ff-61d4750bb0306b55f06cb685__label fd-form-label">First name</label>
           </div>
 
-          <div class="ff-616354a5f88d548e68f5cec1__footer" data-ff-el="footer">
-            <button type="submit" class="ff-616354a5f88d548e68f5cec1__button fd-btn" data-ff-el="submit" data-ff-tab="submit">
-              <span>Subscribe</span>
-            </button>
+
+          <div class="ff-61d4750bb0306b55f06cb685__field fd-form-group">
+            <input class="ff-61d4750bb0306b55f06cb685__control fd-form-control" type="text" name="lastName" placeholder="Last name" data-ff-tab="lastName:firstName:email">
+            <label class="ff-61d4750bb0306b55f06cb685__label fd-form-label">Last name</label>
           </div>
+
+
+          <div class="ff-61d4750bb0306b55f06cb685__field fd-form-group">
+            <input class="ff-61d4750bb0306b55f06cb685__control fd-form-control" type="text" name="email" placeholder="Email address" data-ff-tab="email:lastName:submit" required="">
+            <label class="ff-61d4750bb0306b55f06cb685__label fd-form-label">Email address</label>
+          </div>
+
+          <input type="text" name="confirm_email_address" style="display: none">
+          <!--tpl {% endblock %} tpl-->
         </div>
-        <div class="ff-616354a5f88d548e68f5cec1__success fd-form-success" data-ff-el="success">
-          <div data-paragraph="true">Thank you!</div>
+
+        <div class="ff-61d4750bb0306b55f06cb685__footer" data-ff-el="footer">
+          <button type="submit" class="ff-61d4750bb0306b55f06cb685__button fd-btn" data-ff-el="submit" data-ff-tab="submit">
+            <span>Subscribe</span>
+          </button>
         </div>
-        <div class="ff-616354a5f88d548e68f5cec1__error fd-form-error" data-ff-el="error"></div>
-      </form>
-    </div>
+      </div>
+      <div class="ff-61d4750bb0306b55f06cb685__success fd-form-success" data-ff-el="success">
+        <div data-paragraph="true">Thank you for subscribing!</div>
+      </div>
+      <div class="ff-61d4750bb0306b55f06cb685__error fd-form-error" data-ff-el="error"></div>
+    </form>
   </div>
 </div>
 
@@ -388,19 +436,7 @@ Once you approve the prepress pdfs, we immediately start the process of producin
 <line x1="1.35355" y1="0.646447" x2="25.3536" y2="24.6464" stroke="black"></line>
 <line x1="0.646447" y1="24.6464" x2="24.6464" y2="0.646448" stroke="black"></line>
 </svg></div>
-  <div class="inner">
-      <h1 style="text-align:left;">CONTACT</h1>
-      <p>
-      production@smalleditions.nyc <br>
-      T. 718 422-1304 <br>
-      20 Grand Avenue, #502 <br>
-      Brooklyn, NY 11205 <br><br>
-      
-      We’re open 10am-6pm Monday through Friday, <br>but studio visits are by appointment only. <br>
-      <br>
-      @smalleditionsnyc
-      </p>
-   </div>
+  <div class="inner"></div>
 </div>
 <!-- TERMS &amp; CONDITIONS -->
 <div class="modal" id="terms-modal">
@@ -409,47 +445,7 @@ Once you approve the prepress pdfs, we immediately start the process of producin
 <line x1="0.646447" y1="24.6464" x2="24.6464" y2="0.646448" stroke="black"></line>
 </svg>
 </div>
-  <div class="inner">
-      <h1 style="text-align:center;">Terms of Use </h1>
-<br><br>
-Please read these Terms of Use carefully before using www.smalleditions.nyc (herein referred to as “the Site”), which is owned and operated by Low-Key Editions LLC (DBA Small Editions). These terms of use are a binding contract that governs use of the Site and limits liability of Small Editions. These terms are a legal agreement between you and Small Editions. We reserve the right to change or modify any contents of the site at any time without notice. We also reserve the right to make changes to our Privacy Policy and Terms of Use from time to time.
-<br><br>
-1.1 Acceptance of Terms
-Every time you use or enter the Site, you acknowledge and signify that you have read, understood, and agree to the most current version of these terms of use. If you do not agree with these terms of use, you may not access or use the Site. 
-<br><br>
-1.2 Intellectual Property Rights
-This Site contains copyrighted material and other material protected by other intellectual property rights. You are only permitted to use this Site in accordance with the rights governed by the laws of the state of New York. Any other use is subject to the prior written approval of Small Editions.
-<br><br>
-
-
-PRIVACY
-<br><br>
-This Privacy Policy describes how www.smalleditions.nyc (the Site) collects, uses, and discloses your Personal Information when you visit or make a purchase from the Site. 
-<br><br>
-2.1 Collecting Personal Information 
-Small Editions collects information to provide you with an efficient and optimal experience while using the Site. When you visit the Site, Small Editions collects “Personal” and “Non-Personal” information about you in the following cases: If you make a purchase on the Site, submit an inquiry, book a consultation, request a quote, or sign up for our newsletter. We only collect necessary data needed to conduct our business and process purchases, such as your name, address, telephone number, email address(es), payment cards, other payment data purchase history, and IP address.
-<br><br>
-2.2 Security
-Small Editions will take all reasonable measures to protect the Site against computer viruses or other threats in order to protect your personal data against manipulation, loss, destruction, and unauthorised access. Small Editions does not, however, warrant that this Site is free from such harmful programs and disclaims any responsibility for or liability related to loss due to harmful programs received from the Site or by means of files downloaded from the Site. Thus, you provide your data information at your own risk.
-<br><br>
-2.3 Cookies 
-By using this website, you agree to our use of cookies. We use cookies to provide you with an efficient and optimal experience while using the Site and to help the Site run optimally.
-<br><br>
-2.4 Storage
-Small Editions will store your personal data as long as necessary in order to fulfil the requested service, as long as needed for a legitimate purpose or for as long as required by law.
-<br><br>
-
-
-disclaimer
-<br><br>
-The contents of the Site are made available to the public for informational purposes. This Site contains links to third-party Internet sites over which Small Editions has no control.
-<br><br>
-Small Editions gives no warranty and accepts no responsibility or liability for the accuracy or the completeness of the information and materials contained in this website. Under no circumstances will Small Editions be held responsible or liable for any claims, damages, losses, expenses, costs or liabilities whatsoever (including, without limitation, any direct or indirect damages for loss of profits, business interruption or loss of information) resulting directly or indirectly from your use of the Site or any links to third-party Internet sites, or from your reliance on the information and materials on the Site, regardless if Small Editions has been advised of such damages ahead of time. 
-<br><br>
-
-Updated October 5, 2021 
-
-   </div>
+  <div class="inner"></div>
 </div>
 <!-- CREDITS -->
 <div class="modal" id="credits-modal">
@@ -458,10 +454,7 @@ Updated October 5, 2021
 <line x1="0.646447" y1="24.6464" x2="24.6464" y2="0.646448" stroke="black"></line>
 </svg>
 </div>
-  <div class="inner">
-      <p>Website design by Isobel Chiang<br>
-      Website development by Aarati Akkapeddi</p>
-   </div>
+  <div class="inner"></div>
 </div>
 <!-- MOBILE MODAL -->
 <div class="modal" id="mobile-modal">
@@ -483,3 +476,7 @@ Updated October 5, 2021
 <script src="https://files.cargocollective.com/c1171819/backtotop.js"></script>
 
 <script src="https://files.cargocollective.com/c1171819/request.js"></script>
+<script src="https://files.cargocollective.com/c1171819/refine.js">
+</script>
+<script src="https://files.cargocollective.com/c1171819/terms.js"></script>
+<script src="https://files.cargocollective.com/c1171819/scrollissue.js"></script>

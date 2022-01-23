@@ -1,9 +1,25 @@
-document.addEventListener("DOMContentLoaded", function() {
+(function () {
 
-	
-	setTimeout(function(){
-		let splash = document.querySelector("#splash-page");
-		splash.classList.add('off')
-	}, 1300)
+	document.addEventListener('scroll', function(e) {
 
-})
+	  	let splash = document.querySelector("#splash-page");
+	  	if(splash){
+			splash.classList.add('off')
+	  	}
+
+	});
+}());	
+(function () {
+
+	document.addEventListener('click', function(e) {
+
+	  	let splash = document.querySelector("#splash-page");
+	  	if(splash){
+			splash.classList.add('off')
+	  	}
+
+	});
+}());	
+
+
+

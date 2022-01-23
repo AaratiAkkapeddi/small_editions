@@ -1,14 +1,22 @@
-document.addEventListener("DOMContentLoaded", function() {
-  let accordion = document.querySelectorAll(".accordion");
+(function () {
+  let accordionzz = document.querySelectorAll(".accordion > *:first-child");
 
-  for(let i = 0; i <= accordion.length - 1; i ++){
-  	accordion[i].addEventListener("click", 			function(){
-
-       if(accordion[i].classList.contains("on")){
-         accordion[i].classList.remove("on");
+  for(let i = 0; i <= accordionzz.length - 1; i ++){
+  	accordionzz[i].addEventListener("click", 			function(){
+      
+       if(accordionzz[i].parentElement.classList.contains("on")){
+         accordionzz[i].parentElement.classList.remove("on");
        }else {
-         accordion[i].classList.add("on");
+         accordionzz[i].parentElement.classList.add("on");
+       }
+
+       let accordions = document.querySelectorAll(".accordion");
+       for(let x = 0; x <= accordions.length - 1; x ++){
+         if(accordions[x] != accordionzz[i].parentElement){
+            accordions[x].classList.remove("on")
+         }
+          
        }
     })
   }
-});
+}());

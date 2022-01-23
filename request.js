@@ -1,6 +1,7 @@
-document.addEventListener("DOMContentLoaded", function() {
-	const scriptURL = "https://script.google.com/macros/s/AKfycbyGiO7mHHzVn9fJNX6qTR28onDCzJuA-rOA4gf9-J8UBPnUSE5_GIt-qrwj6eyJBpYQ/exec";
-	const form = document.forms["submit-to-google-sheet"];
+(function () {
+	console.log('test')
+	let scriptURL = "https://script.google.com/macros/s/AKfycbyGiO7mHHzVn9fJNX6qTR28onDCzJuA-rOA4gf9-J8UBPnUSE5_GIt-qrwj6eyJBpYQ/exec";
+	let form = document.forms["submit-to-google-sheet"];
 	
 	form.addEventListener("submit", e => {
 	  e.preventDefault();
@@ -12,4 +13,6 @@ document.addEventListener("DOMContentLoaded", function() {
 	    .catch(error => console.error("Error!", error.message));
 	});
 
-})
+}());
+
+
